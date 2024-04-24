@@ -1,0 +1,47 @@
+#NUMPY LIBRARY
+# import numpy as np
+
+Creation Functions:
+    np.array: Create an array from a Python list or tuple.
+    np.zeros: Create an array filled with zeros.
+    np.ones: Create an array filled with ones.
+    np.arange: Create an array with a range of values.
+    np.linspace: Create an array with evenly spaced values between two endpoints.
+    np.eye: Create an identity matrix.
+
+Array Manipulation Functions:
+    ndarray.shape: Get the shape of an array.
+    ndarray.reshape: Reshape an array into a new shape.
+    ndarray.flatten: Flatten a multi-dimensional array into a 1-dimensional array.
+    np.concatenate: Concatenate arrays along a specified axis.
+    np.vstack: Stack arrays vertically (row-wise).
+    np.hstack: Stack arrays horizontally (column-wise).
+
+Mathematical Functions:
+    np.sum: Compute the sum of array elements.
+    np.mean: Compute the mean of array elements.
+    np.median: Compute the median of array elements.
+    np.std: Compute the standard deviation of array elements.
+    np.min/np.max: Find the minimum/maximum value in an array.
+    np.exp: Compute the exponential of array elements.
+    np.log: Compute the natural logarithm of array elements.
+    np.sqrt: Compute the square root of array elements.
+    np.sin/np.cos/np.tan: Compute trigonometric functions.
+
+Indexing and Slicing:
+    ndarray[index]: Get a single element from the array at the specified index.
+    ndarray[start:end]: Get a subarray from start index to end index (exclusive).
+    ndarray[:, column]: Get all rows from a specific column.
+    ndarray[row, :]: Get all columns from a specific row.
+    ndarray[condition]: Get elements from the array based on a boolean condition.
+
+Array Operations:
+    Element-wise operations: +, -, *, /, **.
+    Array broadcasting: Automatic expansion of arrays to perform operations.
+    Dot product: np.dot or @ operator for matrix multiplication.
+
+Random Number Generation:
+    np.random.rand: Generate random values from a uniform distribution.
+    np.random.randn: Generate random values from a standard normal distribution.
+    np.random.randint: Generate random integers within a specified range.
+    np.random.seed: Set the random seed for reproducibility.
